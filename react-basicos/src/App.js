@@ -6,11 +6,19 @@ import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
 import CicloVida from "./components/CicloVida";
-
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
-
 import "./App.css";
+import Formularios from "./components/Formularios";
+import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponentesEstilizados";
 
 function App() {
   return (
@@ -61,7 +69,38 @@ function App() {
           <ComunicacionComponentes />
           <hr />
           <CicloVida />
+          <hr />
+          <AjaxApis />
+          <hr />
+          <ContadorHooks titulo="Seguidores" />
+          <hr />
+          <ScrollHooks></ScrollHooks>
+          <hr />
+          <RelojHooks></RelojHooks>
+          <hr />
+          <AjaxHooks />
         </section>
+        <hr />
+        <HooksPersonalizados />
+        <hr />
+        <Referencias />
+        <hr />
+        <Formularios />
+        <hr />
+        <hr />
+        <Estilos />
+        <hr />
+        <ComponentesEstilizados />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </header>
     </div>
   );
